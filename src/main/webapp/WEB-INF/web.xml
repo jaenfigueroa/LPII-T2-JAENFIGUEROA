@@ -28,6 +28,18 @@
   	<description></description>
   	<servlet-class>Controlador.ControladorUsuario</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ClassProveedorImp</servlet-name>
+  	<display-name>ClassProveedorImp</display-name>
+  	<description></description>
+  	<servlet-class>ClassProveedorImp.ClassProveedorImp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorProveedorImp</servlet-name>
+  	<display-name>ControladorProveedorImp</display-name>
+  	<description></description>
+  	<servlet-class>Controlador.ControladorProveedorImp</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ControladorLogeo</servlet-name>
   	<url-pattern>/ControladorLogeo</url-pattern>
@@ -43,5 +55,13 @@
   <servlet-mapping>
   	<servlet-name>ControladorUsuario</servlet-name>
   	<url-pattern>/ControladorUsuario</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClassProveedorImp</servlet-name>
+  	<url-pattern>/ClassProveedorImp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorProveedorImp</servlet-name>
+  	<url-pattern>/ControladorProveedorImp</url-pattern>
   </servlet-mapping>
 </web-app>

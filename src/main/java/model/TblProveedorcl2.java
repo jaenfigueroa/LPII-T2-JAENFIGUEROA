@@ -19,16 +19,16 @@ public class TblProveedorcl2 implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int idproveedorcl2;
 
-	private String emailproveecl2;
+	private String emailproveecl2; //
 
 	@Temporal(TemporalType.DATE)
-	private Date feingproveecl2;
+	private Date feingproveecl2; //
 
-	private String nomproveecl2;
+	private String nomproveecl2; //
 
-	private String rsocialproveecl2;
+	private String rsocialproveecl2; //
 
-	private String rucproveecl2;
+	private String rucproveecl2; //
 
 	public TblProveedorcl2() {
 	}
